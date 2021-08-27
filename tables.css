@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+table{
+    width: 98.8%;
+    margin: 12px;
+}
+
+table td, table th{
+    border: 1px solid #ddd;
+}
+
+th{
+    text-align: left;
+    background-color: #FFCE6F;
+    color: #000;
+    padding: 5px;
+}
+
+td{
+    padding: 5px;
+    font-weight: bold;
+}
+
+tr:nth-child(even){
+    background-color: #eee;
+}
+
+table tr:hover{
+    background-color: #ddd;
+}
+
+body{
+    background-color: whitesmoke;
+}
